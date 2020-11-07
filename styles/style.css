@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+/* -------- FONTS --------------*/
+
+h1 {
+  font-size: 4rem;
+  font-weight: 50;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 50;
+  text-align: center;
+  margin: 1rem 0 0 0;
+  text-decoration: underline;
+  text-decoration-color: rgb(29, 218, 155);
+  text-underline-position: below;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 50;
+  text-align: center;
+  margin: 1.5rem 0 0 0;
+  color: rgb(29, 218, 155);
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 50;
+  margin: 1rem 0 0 0;
+  color: rgba(68, 67, 67, 0.822);
+}
+
+/* -------- NAVBAR --------------*/
+
+.navbar {
+  margin: 0;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  font-size: 1.2rem;
+}
+
+#navbar-logo {
+  height: 60px;
+  padding: 10px 30px 10px 10px;
+}
+
+/* -------- INTRO --------------*/
+
+.intro {
+  background-image: url(/images/landing.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.intro h1 {
+  margin: 150px 0 0 0;
+  color: white;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.grid {
+  margin: 40px 80px;
+  padding: 40px 40px;
+  min-height: 600px;
+}
+
+/* -------- WHATSON --------------*/
+.whatson {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px 0 0 0;
+}
+.whatson img {
+  height: 80px;
+  margin: 20px 0 0 0;
+}
+
+.whatson article {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 40px 0 0 0;
+  padding: 10px 10px;
+}
+
+.whatson p {
+  text-align: center;
+}
+
+/* -------- TEASER --------------*/
+
+.background {
+  background-color: rgb(29, 218, 155);
+  background-image: url(/images/spotify-icon-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.color-teaser article {
+  padding: 0 250px 0 0;
+}
+.color-teaser p {
+  color: white;
+  text-align: left;
+}
+
+.color-teaser h3 {
+  color: white;
+  text-align: left;
+}
+.color-teaser h2 {
+  color: white;
+  text-align: left;
+  text-decoration-color: white;
+}
+
+.color-teaser img {
+  max-height: 600px;
+  margin: 80px 80px 0 0;
+}
